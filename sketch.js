@@ -2,7 +2,7 @@ var tree = [];
 var sw;
 
 function setup() {
-  createCanvas(displayWidth , displayHeight*0.8);
+  createCanvas(window.innerWidth, window.innerHeight);
   frameRate(10);
   var s = createVector(width / 2, height);
   var e = createVector(width / 2, height - 70);
